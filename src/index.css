@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+:root {
+    --backgroundColor: #4a4063;
+    --textColor: #bfacc8;
+    --container-width-lg: 80%;
+    --container-width-md: 86%;
+    --containerWidthSm: 90%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+
+}
