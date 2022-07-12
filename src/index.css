@@ -82,10 +82,11 @@ a:hover {
     border-color: transparent;
 }
 
-img {
+.img {
     display: block;
     width: 100%;
-    object-fit: cover;
+    margin: 0 auto;
+    text-align: center;
 }
 
 /*medium devices*/

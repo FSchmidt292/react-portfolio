@@ -1,5 +1,7 @@
-.links {
+.contact__container {
     display: flex;
-    justify-content: center;
-    gap: 2rem;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+
 }
