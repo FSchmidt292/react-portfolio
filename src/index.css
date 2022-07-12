@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300;400;500&display=swap');
 
 * {
     margin: 0;
@@ -10,11 +10,14 @@
 }
 
 :root {
-    --backgroundColor: #4a4063;
-    --textColor: #bfacc8;
+    --backgroundColor: #f5f7dc;
+    --borderColor: #f0a7a0;
+    --textColor: #373737;
+    --sectionBackground: #f6feaa;
     --container-width-lg: 80%;
     --container-width-md: 86%;
     --containerWidthSm: 90%;
+    --textLight: rgb(141, 140, 140);
 }
 
 html {
@@ -26,6 +29,83 @@ html {
 }
 
 body {
-    font-family: 'Merriweather', serif;
+    font-family: 'Robot Slab', serif;
+    background: var(--backgroundColor);
+    color: var(--textColor);
+    line-height: 1.75;
 
+}
+
+.container {
+    width: var(--container-width-lg);
+    margin: 0 auto;
+    justify-content: center;
+}
+
+h1 {
+    font-weight: 400;
+}
+h2 {
+    font-weight: 400;
+}
+h3{
+    font-weight: 300;
+}
+
+.text-light {
+    color: var(--textLight)
+}
+
+section {
+    margin-top: 8rem, var(--borderColor);
+    text-align: center;
+}
+
+a {
+    transition: all 400ms ease;
+}
+
+a:hover {
+    color: black;
+}
+
+.btn {
+    width: max-content;
+    display: inline-block;
+    padding: 0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    border: 1px var(--borderColor);
+}
+
+.btn:hover {
+    background: var(--backgroundColor);
+    border-color: transparent;
+}
+
+img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+/*medium devices*/
+@media screen and (max-width: 1024px) {
+    .container {
+        width: var(--container-width-md);
+    }
+
+    section {
+        margin-top: 6rem;
+    }
+}
+
+/*small devices*/
+@media screen and (max-width: 600px) {
+    .container {
+        width: var(--container-width-sm);
+    }
+
+    section {
+        margin-top: 2rem;
+    }
 }
