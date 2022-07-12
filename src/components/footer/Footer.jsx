@@ -8,7 +8,7 @@ import {ImStackoverflow} from 'react-icons/im'
 
 const Footer = () => {
   return (
-    <footer>
+    <footer id='footer'>
       <div className="links">
       <a href="https://www.linkedin.com/in/francis-schmidt-059621176/" target="_blank" rel="noreferrer"><BsLinkedin /></a>
       <a href="https://www.github.com/FSchmidt292" target="_blank" rel="noreferrer"><BsGithub /></a>

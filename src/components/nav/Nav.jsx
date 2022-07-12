@@ -3,7 +3,12 @@ import './nav.css'
 
 const Nav = () => {
   return (
-    <div>Nav</div>
+    <nav>
+      <a href="#about">About Me</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+      <a href="#footer" >Footer</a>
+    </nav>
   )
 }
 

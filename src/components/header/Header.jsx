@@ -1,7 +1,6 @@
 import React from 'react'
 import './header.css'
 import prof from '../../assets/prof-photo2.jpg'
-//import Nav from './nav/Nav.jsx'
 
 const Header = () => {
   return (

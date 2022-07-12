@@ -3,3 +3,24 @@
     justify-content: center;
     gap: 2rem;
 }
+
+footer {
+    background-color: #fce694;
+    overflow: hidden;
+    border-bottom: 3px black;
+  }
+  
+  footer a {
+    float: left;
+    color: #373737;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  footer a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  

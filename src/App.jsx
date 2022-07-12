@@ -9,8 +9,8 @@ import Footer from './components/footer/Footer.jsx'
 const App = () => {
   return (
     <>
-        <Header />
         <Nav />
+        <Header />
         <About />
         <Portfolio />
         <Contact />

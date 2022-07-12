@@ -82,9 +82,9 @@ a:hover {
     border-color: transparent;
 }
 
-.img {
+img {
     display: block;
-    width: 100%;
+    width: 25%;
     margin: 0 auto;
     text-align: center;
 }
@@ -98,6 +98,10 @@ a:hover {
     section {
         margin-top: 6rem;
     }
+
+    img {
+        width: 40%
+    }
 }
 
 /*small devices*/
@@ -108,5 +112,8 @@ a:hover {
 
     section {
         margin-top: 2rem;
+    }
+    img { 
+        width:80%
     }
 }
