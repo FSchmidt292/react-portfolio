@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import Scuba from '../../assets/scuba.png'
+import Scuba from '../../assets/scuba.png';
 
 const About = () => {
   return (

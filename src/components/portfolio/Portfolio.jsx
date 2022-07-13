@@ -1,5 +1,6 @@
 import React from 'react'
 import './portfolio.css'
+import Project from '../project/Project.jsx'
 
 function Portfolio() {
   return (
@@ -8,7 +9,16 @@ function Portfolio() {
       <h3>Some of my key projects</h3>
         <div className='container'>
           <div className='project'>
-
+            <Project />
+          </div>
+          <div className='project'>
+            <Project />
+          </div>
+          <div className='project'>
+            <Project />
+          </div>
+          <div className='project'>
+            <Project />
           </div>
         </div>
     </section>

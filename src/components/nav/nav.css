@@ -4,7 +4,7 @@ nav {
     border-bottom: 3px black;
   }
   
-  nav a {
+  nav li {
     float: left;
     color: #373737;
     text-align: center;
@@ -13,7 +13,7 @@ nav {
     font-size: 17px;
   }
   
-  nav a:hover {
+  nav li:hover {
     background-color: #ddd;
     color: black;
   }

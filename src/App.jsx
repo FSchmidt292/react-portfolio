@@ -5,16 +5,36 @@ import Nav from './components/nav/Nav.jsx'
 import Portfolio from './components/portfolio/Portfolio.jsx'
 import Contact from './components/contact/Contact.jsx'
 import Footer from './components/footer/Footer.jsx'
+import { useState } from 'react';
 
 const App = () => {
+  
+  const [navSelected, setNavSelected] = useState('About');
+
+  const render = navSelected => {
+    switch(navSelected) {
+      case 'about':
+        return <About></About>
+      case 'portfolio':
+        return <Portfolio></Portfolio>
+      case 'contact':
+        return <Contact></Contact>
+      default:
+    }
+  } 
+  
   return (
     <>
-        <Nav />
+        <Nav
+          navSelected={navSelected}
+          setNavSelected={setNavSelected}
+        ></Nav>
         <Header />
-        <About />
-        <Portfolio />
-        <Contact />
+        <div>
+          {render(navSelected)}
+        </div>
         <Footer />
+        
     </>
   )
 }
