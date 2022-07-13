@@ -16,7 +16,7 @@ function Nav(props) {
               <li 
                   className='nav-item mx-3' 
                   onClick={() => setNavSelected('portfolio')}>
-                      Project
+                      Portfolio
               </li>
               <li 
                   className='nav-item mx-3' 
