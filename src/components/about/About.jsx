@@ -22,7 +22,7 @@ const About = () => {
             </div>
             <div className="aboutMeCard resume">
               <h3>Resume</h3>
-              <p>Download my resume here!</p>
+              <a href={require('../../assets/Resume.docx')} download>Download my resume here!</a>
             </div>
         </div>
       </div>
