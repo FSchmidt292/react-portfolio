@@ -1,3 +1,15 @@
 h3{
     color: var(--textLight)
 }
+
+.projectContainer{
+    display: grid;
+    padding: 1.2rem;
+    gap: 1.5rem;
+}
+
+.project{
+    border: 2px solid;
+    flex-direction: column;
+    height: 20vh
+}
