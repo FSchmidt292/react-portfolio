@@ -5,9 +5,11 @@
 }
 
 footer {
+    border-style: solid;
     background-color: #fce694;
     overflow: hidden;
-    border-bottom: 3px black;
+    border-top: 3px;
+    border-color: black;
   }
   
   footer a {

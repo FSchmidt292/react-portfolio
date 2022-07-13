@@ -1,0 +1,35 @@
+p {
+    color: #373737
+
+}
+
+.about_container {
+    border-style: solid;
+    gap: 15%
+}
+
+.aboutImg {
+    border-radius: 2rem;
+    overflow: hidden;
+    gap: 1.5rem;
+
+}
+.aboutme{
+    display: inline-flex;
+    gap: 1.5rem;
+}
+
+.aboutMeCard{
+    background: #fce694;
+    border: 1px solid;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    text-align: center;
+    flex-direction: column;
+    margin: 1rem;
+
+}
+
+h3{
+    color: var(--textLight);
+}

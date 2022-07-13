@@ -42,6 +42,13 @@ body {
     justify-content: center;
 }
 
+.section1{
+    background-color:rgba(236, 152, 122, 0.849);
+    border: 1px solid;
+    margin: 2rem;
+    border-radius: 15px;
+}
+
 h1 {
     font-weight: 400;
 }
@@ -87,6 +94,15 @@ img {
     width: 25%;
     margin: 0 auto;
     text-align: center;
+}
+section {
+    margin-top: 8rem;
+    height: 100vh;
+}
+
+p {
+    color: var(--textColor);
+    font-weight: 300;
 }
 
 /*medium devices*/

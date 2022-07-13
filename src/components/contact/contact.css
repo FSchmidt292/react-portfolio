@@ -1,7 +1,62 @@
 .contact__container {
+    width: 55%;
+    display: grid;
+    grid-template-columns: 30% 55%;
+    gap: 12%;
+
+}
+.email{
+    border: 1px solid;
+    border-radius: 1.2rem;
+    padding: 1.4rem;
+    background: #fce694;
+}
+
+form {
     display: flex;
     flex-direction: column;
-    height: 100%;
-    align-items: center;
+    gap: 1.2rem;
+}
 
+input, textarea {
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background: var(--backgroundColor);
+    border: 2px solid;
+    resize: none;
+}
+.btn{
+    border: 2px solid;
+    border-color: black;
+
+}
+
+/*medium devices*/
+@media screen and (max-width: 1024px) {
+    .container {
+        width: var(--container-width-md);
+    }
+
+    section {
+        margin-top: 6rem;
+    }
+
+    img {
+        width: 40%
+    }
+}
+
+/*small devices*/
+@media screen and (max-width: 600px) {
+    .container {
+        width: var(--container-width-sm);
+    }
+
+    section {
+        margin-top: 2rem;
+    }
+    img { 
+        width:80%
+    }
 }
