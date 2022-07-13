@@ -3,9 +3,9 @@ import './project.css'
 
 function Project() {
   return (
-    <section id='project'>
+    <div id='project'>
         project
-    </section>
+    </div>
 )};
 
 export default Project;
