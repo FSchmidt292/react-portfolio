@@ -8,18 +8,9 @@ function Portfolio() {
       <h1>Portfolio</h1>
       <h3>Some of my key projects</h3>
         <div className='projectContainer'>
-          <div className='project'>
+          
             <Project />
-          </div>
-          <div className='project'>
-            <Project />
-          </div>
-          <div className='project'>
-            <Project />
-          </div>
-          <div className='project'>
-            <Project />
-          </div>
+          
         </div>
     </section>
   )

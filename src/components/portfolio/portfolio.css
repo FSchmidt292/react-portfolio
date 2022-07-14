@@ -3,13 +3,13 @@ h3{
 }
 
 .projectContainer{
-    display: grid;
+    display: flex;
     padding: 1.2rem;
     gap: 1.5rem;
+    border-style: solid black;
+    border: 1px;
 }
 
-.project{
-    border: 2px solid;
-    flex-direction: column;
-    height: 20vh
+.links{
+    display: block;
 }
