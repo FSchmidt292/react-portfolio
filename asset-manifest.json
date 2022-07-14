@@ -1,16 +1,21 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.bf2c971b.css",
-    "main.js": "/react-portfolio/static/js/main.6a4a9c96.js",
+    "main.css": "/react-portfolio/static/css/main.891e6290.css",
+    "main.js": "/react-portfolio/static/js/main.035bd55b.js",
+    "static/media/Screenshot_20180503-211521.jpg": "/react-portfolio/static/media/Screenshot_20180503-211521.e79145cbce952b1d93ef.jpg",
+    "static/media/make.png": "/react-portfolio/static/media/make.ff54e5caee70076c64ad.png",
+    "static/media/IMG_20170621_092156_106.jpg": "/react-portfolio/static/media/IMG_20170621_092156_106.459da36f2d0792e5dfdb.jpg",
     "static/media/scuba.png": "/react-portfolio/static/media/scuba.6007988c9f027c7da553.png",
+    "static/media/Soundwavez.png": "/react-portfolio/static/media/Soundwavez.57bfa760ade8e6840196.png",
     "static/media/prof-photo2.jpg": "/react-portfolio/static/media/prof-photo2.7589a3dd71c8da1dbdd2.jpg",
+    "static/media/budget.png": "/react-portfolio/static/media/budget.c8d1873be5768eb066e4.png",
     "static/media/Resume.docx": "/react-portfolio/static/media/Resume.ff117e31abc97f4eaa80.docx",
     "index.html": "/react-portfolio/index.html",
-    "main.bf2c971b.css.map": "/react-portfolio/static/css/main.bf2c971b.css.map",
-    "main.6a4a9c96.js.map": "/react-portfolio/static/js/main.6a4a9c96.js.map"
+    "main.891e6290.css.map": "/react-portfolio/static/css/main.891e6290.css.map",
+    "main.035bd55b.js.map": "/react-portfolio/static/js/main.035bd55b.js.map"
   },
   "entrypoints": [
-    "static/css/main.bf2c971b.css",
-    "static/js/main.6a4a9c96.js"
+    "static/css/main.891e6290.css",
+    "static/js/main.035bd55b.js"
   ]
 }
