@@ -8,8 +8,14 @@ h3{
     gap: 1.5rem;
     border-style: solid black;
     border: 1px;
+    text-align: center;
+    margin: auto;
 }
 
 .links{
     display: block;
+}
+
+.flexRow {
+    display: flex;
 }
