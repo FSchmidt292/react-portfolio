@@ -18,7 +18,7 @@ const About = () => {
             </div>
             <div className="aboutMeCard experience">
               <h3>Technologies</h3>
-              <p>I have have experience with HTML, CSS, Javascript, MySQL, mongoose, react, node.js, and express.js</p>
+              <p>I have have experience with HTML, CSS, Javascript, MySQL, mongoose, react, node.js, apolo/graphQL, and express.js</p>
             </div>
             <div className="aboutMeCard resume">
               <h3>Resume</h3>
