@@ -30,6 +30,14 @@ function Project() {
             repo: 'https://github.com/nbross/Project-2-Full-Stack-App',
             liveLink: 'https://hidden-mesa-12283.herokuapp.com/',
         },
+        {
+          title: 'goose.net',
+          category: 'full stack; sql backend; JS, React',
+          description: 'a full stack app that allows Goose fans to create blog posts/events to track their live shows!',
+          photo: 'goose.png',
+          repo: 'https://github.com/FSchmidt292/goose.net',
+          liveLink: 'https://morning-bayou-26643.herokuapp.com/',
+      },
     ]);
   
       return (
