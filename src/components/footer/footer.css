@@ -1,27 +1,30 @@
 .links {
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
 }
 
-footer {
-    border-style: solid;
+#footer {
     background-color: #fce694;
-    overflow: hidden;
     border-top: 3px;
     border-color: black;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
   }
   
-  footer a {
-    float: left;
+  #footer a {
     color: #373737;
-    text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    padding-top: 12px;
+
   }
   
-  footer a:hover {
+  #footer a:hover {
     background-color: #ddd;
     color: black;
   }
