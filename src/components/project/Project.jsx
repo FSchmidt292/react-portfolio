@@ -40,6 +40,7 @@ function Project() {
       },
     ]);
   
+    
       return (
         <div className='projectCard'>
           {projects.map((project)=>(
